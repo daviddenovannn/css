@@ -1,3 +1,14 @@
 h1 {
     color: red;
+    background-color: blue;
+}
+
+button {
+    color: blue;
+    background-color: yellow;
+}
+
+p {
+    color: black;
+    background-color: grey;
 }
