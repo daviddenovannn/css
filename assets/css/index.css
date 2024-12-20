@@ -1,0 +1,17 @@
+h1 {
+   text-align: center;
+   font-weight: normal;
+   text-decoration: underline overline blue; 
+}
+
+p {
+    text-align: justify; 
+    font-weight: bold;
+    /* line-height: */
+    /* letter-spacing: 2px; */
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
