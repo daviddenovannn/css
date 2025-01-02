@@ -12,6 +12,8 @@ h1,h2, h3 {
    
 }
 
+
+
 p {
     color: #80C4E9;
     text-align: justify; 
@@ -57,10 +59,48 @@ button {
     background-color: #8B5DFF;
 }
 
+section button:hover {
+    color: black;
+    background-color: cyan;
+    cursor: pointer;
+}
+
 input[type="text"] {
     color: red;
 }
 
 input[type="password"] {
     color: white;
+}
+
+section:nth-last-of-type(2) {
+    color: yellow;
+    background-color: transparant; 
+}
+
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px red;
+}
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px yellow;
+}
+
+input:checked + label {
+    color: red;
+}
+
+
+option:checked {
+    box-shadow: 0 0 0 2px white;
+    color: red;
+}
+
+section::first-letter {
+    font-size: x-large;
+    color: white;
+}
+
+p::first-line {
+    text-decoration: underline;
 }

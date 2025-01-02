@@ -1,0 +1,12 @@
+div {
+    color: gold;
+    background-color: red;
+    width: 300px;
+    border: solid black;
+    padding: 1em;
+    margin: 20px
+}
+
+div::first-letter{
+    text-size: xx-large:
+}
