@@ -57,6 +57,12 @@ button {
     background-color: #8B5DFF;
 }
 
+section button:hover {
+    color: black;
+    background-color: cyan;
+    cursor: pointer;
+}
+
 input[type="text"] {
     color: red;
 }
