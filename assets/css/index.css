@@ -56,3 +56,11 @@ button {
     color: #B6FFA1;
     background-color: #8B5DFF;
 }
+
+input[type="text"] {
+    color: red;
+}
+
+input[type="password"] {
+    color: white;
+}
