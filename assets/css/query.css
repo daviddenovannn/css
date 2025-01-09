@@ -1,0 +1,38 @@
+body {
+    font-family: 'Calibri', sans-serif;
+}
+
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+ul, li {
+    /* text-decoration: none; */
+    display:inline;
+    margin: 0;
+    padding: 0;    
+}
+
+/* ul {
+    flex-direction: row;
+    align-content: flex-start;
+} */
+
+nav {
+    flex-direction: row;
+}
+
+@media screen and (orientation: portrait ) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1200px)  {
+    h1 {
+        color: cyan;
+    }
+}
+
