@@ -60,7 +60,7 @@ body {
 .panel {
 	background-color: white;
 	width: 100%;
-	max-width: 960px;
+	max-width: 990px;
 	border-radius: 10px;
 	padding: 15px 25px;
 	display: flex;
@@ -110,4 +110,46 @@ body {
 	font-weight: 700;
 	font-size: 32px;
 
+}
+
+.pricing-button {
+	color: #47AAFD;
+	background-color:#FFFFFF;
+	border: solid 1px  #47AAFD;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 15px 20px;
+	text-decoration: none;
+	margin: 25px 0px;
+	display: inline-block;
+}
+
+.pricing-button:hover, .pricing-button:focus {
+	background-color:  #F7F7F7;
+}
+
+.pricing-button.is-featured {
+	background-color: #407BFF;
+	color: #FFFFFF;
+}
+
+.pricing-button.is-featured:hover, 
+.pricing-button.is-featured:focus { 
+	background-color: #94B5FF;
+}
+
+@media (min-width: 900px) {
+	.panel {
+		flex-direction: row;
+		margin-top: 100px;
+	}
+
+	.pricing-plan {
+		padding: 15px 30px;
+		border-right: 1px solid #f7f7f7;
+	}
+
+	.pricing-plan:last-child {
+		border-right: none;
+	}
 }
